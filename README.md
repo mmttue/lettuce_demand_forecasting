@@ -54,5 +54,6 @@ The ER diagram illustrates how transactions link through recipes and sub-recipes
 - Overall, hybrid usage of HW + SARIMA recommended
 
 ## Further Use Instructions
-Be aware that the models make assumptions upon the characteristics of the provided datasets and need to be trained and fine-tuned again when used on a new time series.
-Please install the dependencies within requirements.txt before running the notebooks.
+- The forecasting models (Holt-Winters, SARIMA) make assumptions about the characteristics of the training dataset.  
+- When applying the pipeline to new time series, the models must be **re-trained and fine-tuned** to reflect the new data.  
+- Before running the notebooks, please ensure all dependencies from `requirements.txt` are installed.  
