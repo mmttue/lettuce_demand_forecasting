@@ -12,8 +12,7 @@ The repo has been adapted into a clean, reproducible structure for public demons
 │ ├── 01_data_wrangling.ipynb # Extract & preprocess store-level lettuce demand
 │ └── 02_forecasting.ipynb # Apply Holt-Winters, SARIMA, STL decomposition
 │
-├── data/
-│ ├── sample/ # Small demo CSVs (included in repo)
+├── data/ # All required tables
 │ └── processed/ # Generated outputs (ignored by git)
 │
 ├── docs/
