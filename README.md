@@ -8,17 +8,21 @@ The repo has been adapted into a clean, reproducible structure for public demons
 # Repository Structure
 
 ├── notebooks/
-│   ├── 01_data_wrangling.ipynb    # Extract & preprocess store-level lettuce demand
-│   └── 02_forecasting.ipynb       # Apply Holt-Winters, SARIMA, STL decomposition
+│ ├── 01_data_wrangling.ipynb # Extract & preprocess store-level lettuce demand
+│ └── 02_forecasting.ipynb # Apply Holt-Winters, SARIMA, STL decomposition
+│
 ├── data/
-│   ├── sample/                    # Small demo CSVs (included)
-│   └── processed/                 # Generated outputs (ignored by git)
+│ ├── sample/ # Small demo CSVs (included in repo)
+│ └── processed/ # Generated outputs (ignored by git)
+│
 ├── docs/
-│   ├── Data Description.pdf       # Description of dataset
-│   ├── ERD.pdf                    # Data relationships
-├── requirements.txt               # Python dependencies
-├── .gitignore                     # Exclude venv + large data
-└── README.md                      # You are here
+│ ├── Data_Description.pdf # Dataset description
+│ ├── ERD.pdf # Entity-relationship diagram
+│ └── FAQ.pdf # Frequently asked questions
+│
+├── requirements.txt # Python dependencies
+├── .gitignore # Exclude venv, large data, cache files
+└── README.md # Project documentation (you are here)
 
 # Data Description
 
