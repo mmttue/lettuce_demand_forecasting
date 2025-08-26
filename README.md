@@ -26,15 +26,16 @@ The repo has been adapted into a clean, reproducible structure for public demons
 ```
 
 ## Data Description
-The dataset includ:
+The dataset includes:
 - Transactions (pos_ordersale, menuitem)
 - Menu hierarchy (menu_items, recipes, sub_recipes)
 - Ingredients & units (ingredients, portion_uom_types)
 - Store metadata (store_restaurant)
+Find the detailed breakdown within `Data Description.pdf`
 
-The focus was on IngredientId = 27 (Lettuce) and IngredientId = 291 (Lettuce - Metric), ensuring consistency in measurement (converted to pounds/ounces).
+The focus lays on on IngredientId = 27 (Lettuce) and IngredientId = 291 (Lettuce - Metric), ensuring consistency in measurement (converted to pounds/ounces).
 
-The ER diagram illustrates how transactions link through recipes and sub-recipes to ingredient usage.
+The `ERD.pdf` illustrates how transactions link through recipes and sub-recipes to ingredient usage.
 
 ## Methodology
 ### 1. Data Wrangling (01_data_wrangling.ipynb)
