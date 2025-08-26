@@ -19,7 +19,6 @@ The repo has been adapted into a clean, reproducible structure for public demons
 ├── docs/
 │ ├── Data_Description.pdf # Dataset description
 │ ├── ERD.pdf # Entity-relationship diagram
-│ └── FAQ.pdf # Frequently asked questions
 │
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Exclude venv, large data, cache files
