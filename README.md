@@ -1,12 +1,12 @@
 # Demand Forecasting Project
 
+## Project Description
 This project implements an end-to-end pipeline for demand forecasting in a fast-food restaurant chain and was performed for a university lecture.
 The focus is on forecasting daily demand for lettuce across four stores (two in California, two in New York), supporting inventory replenishment decisions.
 
 The repo has been adapted into a clean, reproducible structure for public demonstration.
 
-# Repository Structure
-
+## Repository Structure
 ```
 ├── notebooks/
 │ ├── 01_data_wrangling.ipynb # Extract & preprocess store-level lettuce demand
@@ -25,8 +25,7 @@ The repo has been adapted into a clean, reproducible structure for public demons
 └── README.md # Project documentation (you are here)
 ```
 
-# Data Description
-
+## Data Description
 The dataset included:
 - Transactions (pos_ordersale, menuitem)
 - Menu hierarchy (menu_items, recipes, sub_recipes)
@@ -37,8 +36,7 @@ The focus was on IngredientId = 27 (Lettuce) and IngredientId = 291 (Lettuce - M
 
 The ER diagram illustrates how transactions link through recipes and sub-recipes to ingredient usage.
 
-# Methodology
-
+## Methodology
 1. Data Wrangling (01_data_wrangling.ipynb)
 - Merged transactional and recipe tables into daily demand per store.
 - Converted lettuce demand into a consistent unit.
