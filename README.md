@@ -26,7 +26,7 @@ The repo has been adapted into a clean, reproducible structure for public demons
 ```
 
 ## Data Description
-The dataset included:
+The dataset includ:
 - Transactions (pos_ordersale, menuitem)
 - Menu hierarchy (menu_items, recipes, sub_recipes)
 - Ingredients & units (ingredients, portion_uom_types)
