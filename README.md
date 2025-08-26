@@ -26,7 +26,7 @@ The repo has been adapted into a clean, reproducible structure for public demons
 ```
 
 ## Datasets
-The datasets, fully described `Data Description.pdf`,includes:
+The datasets, fully described in `Data Description.pdf` includes:
 - Transactions (pos_ordersale, menuitem)
 - Menu hierarchy (menu_items, recipes, sub_recipes)
 - Ingredients & units (ingredients, portion_uom_types)
