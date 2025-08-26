@@ -1,0 +1,15 @@
+# Core
+pandas>=2.0
+numpy>=1.25
+pyarrow>=14.0  # Parquet support
+
+# SQL-style queries in wrangling (if used)
+pandasql>=0.7.3
+
+# Forecasting
+statsmodels>=0.14
+pmdarima>=2.0
+
+# Metrics & plotting
+scikit-learn>=1.5
+matplotlib>=3.7
