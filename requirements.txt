@@ -3,12 +3,14 @@ pandas>=2.0
 numpy>=1.25
 pyarrow>=14.0  # Parquet support
 
-# SQL-style queries in wrangling (if used)
+# SQL-style queries in wrangling (only if you actually use it)
 pandasql>=0.7.3
 
-# Forecasting
+# Forecasting & stats
 statsmodels>=0.14
 pmdarima>=2.0
+scipy>=1.11
+arch>=6.0
 
 # Metrics & plotting
 scikit-learn>=1.5
