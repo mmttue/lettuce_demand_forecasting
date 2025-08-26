@@ -52,3 +52,7 @@ The ER diagram illustrates how transactions link through recipes and sub-recipes
 - Store 46673: Holt-Winters slightly outperformed SARIMA.
 - Other stores: SARIMA handled seasonality better.
 - Overall, hybrid usage of HW + SARIMA recommended
+
+## Further Use Instructions
+Be aware that the models make assumptions upon the characteristics of the provided datasets and need to be trained and fine-tuned again when used on a new time series.
+Please install the dependencies within requirements.txt before running the notebooks.
