@@ -37,18 +37,18 @@ The focus was on IngredientId = 27 (Lettuce) and IngredientId = 291 (Lettuce - M
 The ER diagram illustrates how transactions link through recipes and sub-recipes to ingredient usage.
 
 ## Methodology
-1. Data Wrangling (01_data_wrangling.ipynb)
+### 1. Data Wrangling (01_data_wrangling.ipynb)
 - Merged transactional and recipe tables into daily demand per store.
 - Converted lettuce demand into a consistent unit.
 - Exported aligned store-level time series to data/processed/final_demand.parquet.
 
-2. Forecasting (02_forecasting.ipynb)
+### 2. Forecasting (02_forecasting.ipynb)
 - Applied Holt-Winters exponential smoothing and SARIMA models.
 - Used STL decomposition for exploratory analysis.
 - Compared models via MAE, RMSE, MAPE, SMAPE.
 - Exported combined two-week forecasts to data/processed/forecast_results.csv.
 
-3. Model Insights
+### 3. Model Insights
 - Store 46673: Holt-Winters slightly outperformed SARIMA.
 - Other stores: SARIMA handled seasonality better.
 - Overall, hybrid usage of HW + SARIMA recommended
