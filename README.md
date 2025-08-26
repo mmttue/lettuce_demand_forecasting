@@ -7,6 +7,7 @@ The repo has been adapted into a clean, reproducible structure for public demons
 
 # Repository Structure
 
+```
 ├── notebooks/
 │ ├── 01_data_wrangling.ipynb # Extract & preprocess store-level lettuce demand
 │ └── 02_forecasting.ipynb # Apply Holt-Winters, SARIMA, STL decomposition
@@ -23,6 +24,7 @@ The repo has been adapted into a clean, reproducible structure for public demons
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Exclude venv, large data, cache files
 └── README.md # Project documentation (you are here)
+```
 
 # Data Description
 
