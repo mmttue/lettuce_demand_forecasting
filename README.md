@@ -25,13 +25,12 @@ The repo has been adapted into a clean, reproducible structure for public demons
 └── README.md # Project documentation (you are here)
 ```
 
-## Data Description
-The dataset includes:
+## Datasets
+The datasets, fully described `Data Description.pdf`,includes:
 - Transactions (pos_ordersale, menuitem)
 - Menu hierarchy (menu_items, recipes, sub_recipes)
 - Ingredients & units (ingredients, portion_uom_types)
 - Store metadata (store_restaurant)
-Find the detailed breakdown within `Data Description.pdf`
 
 The focus lays on on IngredientId = 27 (Lettuce) and IngredientId = 291 (Lettuce - Metric), ensuring consistency in measurement (converted to pounds/ounces).
 
